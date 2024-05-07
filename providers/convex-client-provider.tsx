@@ -9,6 +9,9 @@ import {
 } from "convex/react";
 
 import { Loading } from "@/components/auth/loading";
+import HomePage from "@/components/homePage/HomePage";
+
+import CursorTrail from "@/components/homePage/Cursor"
 
 interface ConvexClientProviderProps {
   children: React.ReactNode;
@@ -26,7 +29,7 @@ export const ConvexClientProvider = ({
       <ConvexProviderWithClerk useAuth={useAuth} client={convex}>
         
         <SignedOut>
-          <SignInButton />
+          <CursorTrail/>
         </SignedOut>
         <SignedIn>
           {children}
