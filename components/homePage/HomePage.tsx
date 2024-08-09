@@ -13,12 +13,7 @@ function HomePage({ }: Props) {
                     <span>
                         Sktch together
                     </span>
-                    <span>
-                        Overview
-                    </span>
-                    <span>
-                        Made By Anurag Sharma
-                    </span>
+                    
                 </div>
                 <div className='space-x-4'>
                     <Button variant={'ghost'} className='text-base'>
