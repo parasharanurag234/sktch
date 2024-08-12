@@ -78,14 +78,9 @@ const CursorTrail = () => {
                     <header className='flex justify-between p-4 items-center'>
                         <div className='space-x-4 text-lg'>
                             <span className={styles.buttonMain}>
-                                Sktch together
+                                Sktch Togo
                             </span>
-                            <span className={styles.buttonMain}>
-                                Overview
-                            </span>
-                            <span>
-                                Made By Anurag Sharma
-                            </span>
+                            
                         </div>
                         <div className='space-x-4'>
                             <Button variant={'ghost'} className='text-base'>
