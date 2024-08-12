@@ -11,7 +11,7 @@ function HomePage({ }: Props) {
             <header className='flex justify-between p-4 items-center'>
                 <div className='space-x-4 text-lg'>
                     <span>
-                        Sktch together
+                        Sktch Togo
                     </span>
                     
                 </div>
